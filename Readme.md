@@ -24,7 +24,7 @@ hacker-portfolio/
 ├── index.html          # Main HTML structure
 ├── styles.css          # All styling and animations
 ├── README.md           # Project overview
-
+ └── assets/ # CV inform of a pdf .
 ```
 
 ## 🚀 Features
