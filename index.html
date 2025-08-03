@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Kamawira - Hacker Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <div class="matrix-bg">
+        <div class="matrix-rain">
+            <div class="matrix-column" style="--delay: 0s; --duration: 3s;">01100001</div>
+            <div class="matrix-column" style="--delay: 0.5s; --duration: 4s;">11010110</div>
+            <div class="matrix-column" style="--delay: 1s; --duration: 3.5s;">10101010</div>
+            <div class="matrix-column" style="--delay: 1.5s; --duration: 4.5s;">01110011</div>
+            <div class="matrix-column" style="--delay: 2s; --duration: 3.2s;">11001100</div>
+            <div class="matrix-column" style="--delay: 2.5s; --duration: 4.2s;">10011001</div>
+            <div class="matrix-column" style="--delay: 3s; --duration: 3.8s;">01010101</div>
+            <div class="matrix-column" style="--delay: 3.5s; --duration: 4.8s;">11110000</div>
+            <div class="matrix-column" style="--delay: 4s; --duration: 3.3s;">00001111</div>
+            <div class="matrix-column" style="--delay: 4.5s; --duration: 4.1s;">10101101</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="glitch" data-text="&lt;/SAMUEL_KAMAWIRA&gt;">&lt;/SAMUEL_KAMAWIRA&gt;</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">~/home</a></li>
+                <li><a href="#about" class="nav-link">~/about</a></li>
+                <li><a href="#skills" class="nav-link">~/skills</a></li>
+                <li><a href="#education" class="nav-link">~/education</a></li>
+                <li><a href="#projects" class="nav-link">~/projects</a></li>
+                <li><a href="#contact" class="nav-link">~/contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn red"></span>
+                        <span class="btn yellow"></span>
+                        <span class="btn green"></span>
+                    </div>
+                    <div class="terminal-title">Samuer@cyber:~$</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">Samuel@cyber:~$</span>
+                        <span class="command typing-animation">whoami</span>
+                    </div>
+                    <div class="output">
+                        <h1 class="hero-title">
+                            <span class="text-glow">Samuel Kamawira</span>
+                        </h1>
+                        <p class="hero-subtitle typing-animation-2">
+                            Full Stack Developer | Cybersecurity Enthusiast | Startupvisionary
+                        </p>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">Samuel@cyber:~$</span>
+                        <span class="cursor">_</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-hacker">
+                    <span>./view_projects.sh</span>
+                </a>
+                <a href="#contact" class="btn-hacker btn-outline">
+                    <span>./contact_me.sh</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span>
+                <span class="glitch" data-text="About Me">About Me</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="code-block">
+                        <div class="code-header">about_me.py</div>
+                        <div class="code-body">
+                            <span class="code-comment"># Initializing developer...</span><br>
+                            <span class="code-keyword">class</span> <span class="code-class">Developer</span>:<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-function">__init__</span>(self):<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-string">"Samuel Kamawira"</span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.role = <span class="code-string">"Full Stack Developer"</span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.passion = <span class="code-string">"Creating digital solutions"</span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.location = <span class="code-string">"Nairobi, Kenya"</span><br><br>
+                            
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-function">get_info</span>(self):<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"bio"</span>: <span class="code-string">"Passionate developer with 1+ years experience"</span>,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"focus"</span>: <span class="code-string">"Web development & cybersecurity"</span>,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"goal"</span>: <span class="code-string">"Building secure, scalable applications"</span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                         <div class="scan-line"></div>
+                            <img src="https://i.pinimg.com/736x/44/84/18/448418b818f6f0c38b77c7ab31fd2a4a.jpg" alt="Samuel Kamawira" class="profile-img">
+                            <div class="image-overlay">
+                                <div class="status-indicator">
+                                    <span class="status-dot"></span>
+                                    <span>ONLINE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span>
+                <span class="glitch" data-text="Skills & Languages">Skills & Languages</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 90%; --delay: 0.2s;"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 85%; --delay: 0.4s;"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 95%; --delay: 0.6s;"></div>
+                            </div>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 80%; --delay: 0.8s;"></div>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 88%; --delay: 1s;"></div>
+                            </div>
+                            <span class="skill-percentage">20%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 82%; --delay: 1.2s;"></div>
+                            </div>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 20%; --delay: 1.4s;"></div>
+                            </div>
+                            <span class="skill-percentage">20%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 78%; --delay: 1.6s;"></div>
+                            </div>
+                            <span class="skill-percentage">78%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Security</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Penetration Testing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 85%; --delay: 1.8s;"></div>
+                            </div>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Network Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 80%; --delay: 2s;"></div>
+                            </div>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Ethical Hacking</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 75%; --delay: 2.2s;"></div>
+                            </div>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span>
+                <span class="glitch" data-text="Education">Education</span>
+            </h2>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="card-header">
+                        <h3>Professional Certificate</h3>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="institution">Moringa School</p>
+                        <p class="description">
+                            Specialized in Software Engineering  
+                        </p>
+                        <div class="achievements">
+                            <span class="achievement-tag">Scrum Master</span>
+                          
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="cv-download">
+                    <div class="terminal-download">
+                        <div class="download-header">
+                            <span>samuel@cyber:~$ ./download_cv.sh</span>
+                        </div>
+                        <div class="download-body">
+                            <p>Ready to download...</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                            <a href="data:text/plain;charset=utf-8,ALEX%20CYBER%20-%20CURRICULUM%20VITAE%0A%0ACONTACT%20INFORMATION%0AEmail%3A%20alex.cyber%40example.com%0APhone%3A%20%2B254%20700%20123%20456%0ALocation%3A%20Nairobi%2C%20Kenya%0ALinkedIn%3A%20linkedin.com%2Fin%2Falexcyber%0AGitHub%3A%20github.com%2Falexcyber%0A%0AEDUCATION%0ABachelor%20of%20Computer%20Science%0AUniversity%20of%20Nairobi%20%282020-2024%29%0AFirst%20Class%20Honors%20%28GPA%3A%203.8%2F4.0%29%0A%0ASKILLS%0A-%20Frontend%3A%20JavaScript%2C%20React.js%2C%20HTML%2FCSS%2C%20TypeScript%0A-%20Backend%3A%20Node.js%2C%20Python%2C%20MongoDB%2C%20PostgreSQL%0A-%20Security%3A%20Penetration%20Testing%2C%20Network%20Security%2C%20Ethical%20Hacking%0A%0APROJECTS%0A1.%20CyberShield%20Dashboard%20-%20Cybersecurity%20monitoring%20system%0A2.%20SecureShop%20E-commerce%20-%20Secure%20online%20shopping%20platform%0A3.%20AI%20Assistant%20Bot%20-%20Intelligent%20chatbot%20with%20NLP%0A%0AACHIEVEMENTS%0A-%20Dean%27s%20List%20%282022-2024%29%0A-%20Cybersecurity%20Club%20President%0A-%20Hackathon%20Winner%20%282023%29" download="Samuel_CV.txt" class="download-btn">
+                                <span>📄 Download My CV</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span>
+                <span class="glitch" data-text="Interests">Interests</span>
+            </h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>Passionate about creating responsive, user-friendly web applications using modern frameworks and best practices.</p>
+                    <div class="card-scan-line"></div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Cybersecurity</h3>
+                    <p>Fascinated by digital security, ethical hacking, and protecting systems from cyber threats.</p>
+                    <div class="card-scan-line"></div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Exploring artificial intelligence and machine learning to build intelligent applications.</p>
+                    <div class="card-scan-line"></div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-icon">☁️</div>
+                    <h3>Cloud Computing</h3>
+                    <p>Learning cloud technologies and DevOps practices for scalable application deployment.</p>
+                    <div class="card-scan-line"></div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>Building cross-platform mobile applications with React Native and Flutter.</p>
+                    <div class="card-scan-line"></div>
+                </div>
+                <div class="interest-card">
+                    <div class="card-icon">🎮</div>
+                    <h3>Game Development</h3>
+                    <p>Creating interactive games and exploring virtual reality experiences.</p>
+                    <div class="card-scan-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">05.</span>
+                <span class="glitch" data-text="Projects">Projects</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <h3>G_Store</h3>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://g-store-drab.vercel.app/" class="project-link">Live Demo</a>
+                                <a href="https://github.com/toxidity-18/G_Store" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title glitch" data-text="G_Store">G_Store</h3>
+                        <p>Online video game store </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <h3>Cipher_Game</h3>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/toxidity-18/Cipher_Mission_Program" class="project-link">Live Demo</a>
+                                <a href="https://github.com/toxidity-18/Cipher_Mission_Program" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title glitch" data-text="Cipher_Game">Cipher_Game</h3>
+                        <p>A multi-level crypto puzzle solver that decodes hidden messages using Base64, ROT13, AES decryption, and PNG steganography—built for CTF and ethical hacking practice..</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pycrptodome</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">06.</span>
+                <span class="glitch" data-text="Contact Me">Contact Me</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="terminal-contact">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn red"></span>
+                                <span class="btn yellow"></span>
+                                <span class="btn green"></span>
+                            </div>
+                            <div class="terminal-title">contact_info.sh</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="contact-item">
+                                <span class="contact-label">Email:</span>
+                                <span class="contact-value">desavigatunganga@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Phone:</span>
+                                <span class="contact-value">+254 796 374 161</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Location:</span>
+                                <span class="contact-value">Nairobi, Kenya</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">LinkedIn:</span>
+                                <span class="contact-value">www.linkedin.com/in/samuel-kamawira-0b9674336</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">GitHub:</span>
+                                <span class="contact-value">https://github.com/toxidity-18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="hacker-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-hacker">
+                            <span>./send_message.sh</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Samuel. All rights reserved.</p>
+                <p class="footer-text">
+                    <span class="typing-footer">Coded with ❤️ and lots of ☕</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
