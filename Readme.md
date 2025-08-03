@@ -10,11 +10,7 @@ A cyberpunk-inspired personal portfolio built with **pure HTML and CSS**—no Ja
 
 ---
 
-## 🌐 Live Preview
-
-> Coming soon...
-
----
+## 🌐 [Live Preview](https://toxidity-18.github.io/Samuel-CypherPortfolio/)
 
 ## 📁 Project Structure
 
